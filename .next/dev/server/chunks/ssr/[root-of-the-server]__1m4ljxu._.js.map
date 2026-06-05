@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/nazmussamir/Documents/nasirullah/sound-lab/src/components/AuthProvider.tsx"],"sourcesContent":["\"use client\";\n\nimport React from 'react';\nimport { SessionProvider } from 'next-auth/react';\n\ninterface AuthProviderProps {\n  children: React.ReactNode;\n}\n\nexport default function AuthProvider({ children }: AuthProviderProps) {\n  return <SessionProvider>{children}</SessionProvider>;\n}\n"],"names":["AuthProvider","children"],"mappings":";;;;;AAGA;AAHA;;;AASe,SAASA,aAAa,EAAEC,QAAQ,EAAqB;IAClE,qBAAO,8OAAC,iKAAe;kBAAEA;;;;;;AAC3B"}}]
+}
