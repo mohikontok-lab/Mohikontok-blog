@@ -65,7 +65,7 @@ export async function POST(req: Request) {
         },
       ],
       mode: "payment",
-      success_url: `${baseUrl}/?status=success&session_id={CHECKOUT_SESSION_ID}&service_id=${serviceId}&service_name=${encodeURIComponent(serviceName)}&date=${encodeURIComponent(date)}&time_slot=${encodeURIComponent(timeSlot)}&client_name=${encodeURIComponent(name)}&client_email=${encodeURIComponent(email)}&client_phone=${encodeURIComponent(phone || "")}&notes=${encodeURIComponent(notes || "")}`,
+      success_url: `${baseUrl}?status=success&session_id={CHECKOUT_SESSION_ID}&service_id=${serviceId}&service_name=${encodeURIComponent(serviceName)}&date=${encodeURIComponent(date)}&time_slot=${encodeURIComponent(timeSlot)}&client_name=${encodeURIComponent(name)}&client_email=${encodeURIComponent(email)}&client_phone=${encodeURIComponent(phone || "")}&notes=${encodeURIComponent(notes || "")}`,
       cancel_url: `${baseUrl}/#scheduler`,
       customer_email: email,
       metadata: {
