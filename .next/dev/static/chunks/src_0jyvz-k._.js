@@ -766,7 +766,7 @@ const About = ()=>{
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "about-text",
-                                    children: "Mohikontok Sound Lab is a professional recording studio, rehearsal space, and audio production facility located in Bronx, NY. We offer full-service sound solutions—ranging from vocal and instrument tracking, mixing, and mastering, to sound equipment rental for private events."
+                                    children: "Mohikontok Sound Lab is a professional recording studio, rehearsal space, and audio production facility located in the Bronx, NY. We offer full-service sound solutions—ranging from vocal and instrument tracking, mixing, and mastering, to sound equipment rental for private events."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About.tsx",
                                     lineNumber: 36,
@@ -777,10 +777,10 @@ const About = ()=>{
                                     style: {
                                         color: 'var(--text-muted)'
                                     },
-                                    children: "Led by industry professionals with over 30 years of composition, songwriting, and sound engineering experience, we help independent musicians, bands, podcasters, and content creators bring their acoustic ideas to life with high-fidelity clarity. We also specialize in global music distribution, registering ISRC/UPC codes to publish your tracks worldwide."
+                                    children: "Directed by industry professionals with over 30 years of experience in composition, songwriting, and sound engineering, we help independent musicians, bands, podcasters, and content creators bring their acoustic ideas to life with high-resolution clarity. We also specialize in global music distribution, registering ISRC/UPC codes to publish your tracks worldwide."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 42,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -793,20 +793,20 @@ const About = ()=>{
                                                     children: "Music Distribution"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/About.tsx",
-                                                    lineNumber: 46,
+                                                    lineNumber: 51,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Register official ISRC/UPC codes and distribute your tracks to 150+ streaming platforms."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/About.tsx",
-                                                    lineNumber: 47,
+                                                    lineNumber: 52,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/About.tsx",
-                                            lineNumber: 45,
+                                            lineNumber: 50,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -816,26 +816,26 @@ const About = ()=>{
                                                     children: "Professional Acoustics"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/About.tsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 55,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Soundproofed tracking rooms and rehearsal spaces configured for bands and audio engineers."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/About.tsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 56,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/About.tsx",
-                                            lineNumber: 49,
+                                            lineNumber: 54,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 44,
+                                    lineNumber: 49,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
@@ -869,12 +869,12 @@ const About = ()=>{
                                         alt: "Mohammad Nasirullah - Founder & Composer"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 70,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -884,33 +884,33 @@ const About = ()=>{
                                             children: '"Our mission is to give artists the technical precision and acoustic space to realize their sound."'
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About.tsx",
-                                            lineNumber: 73,
+                                            lineNumber: 78,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                             children: "Mohammad Nasirullah"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 81,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "Founder & Chief Engineer"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About.tsx",
-                                            lineNumber: 77,
+                                            lineNumber: 82,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 77,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/About.tsx",
-                            lineNumber: 57,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -1062,20 +1062,20 @@ const StudioSpace = ()=>{
                                                 className: "equipment-bullet"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 53,
+                                                lineNumber: 54,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: "Pro Mixing Console (Yamaha MG12XUK)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 54,
+                                                lineNumber: 55,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                        lineNumber: 52,
+                                        lineNumber: 53,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1083,22 +1083,22 @@ const StudioSpace = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "equipment-bullet"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 57,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: "Marshall & Yamaha Cabinets/Amps"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
                                                 lineNumber: 58,
                                                 columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                children: "Vevor Cabinets/Amps"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/StudioSpace.tsx",
+                                                lineNumber: 59,
+                                                columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                        lineNumber: 56,
+                                        lineNumber: 57,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1106,22 +1106,22 @@ const StudioSpace = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "equipment-bullet"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 61,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: "Fully Acoustic-treated Rehearsal Space"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
                                                 lineNumber: 62,
                                                 columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                children: "Fully Acoustic-treated space"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/StudioSpace.tsx",
+                                                lineNumber: 63,
+                                                columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                        lineNumber: 60,
+                                        lineNumber: 61,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1131,26 +1131,26 @@ const StudioSpace = ()=>{
                                                 className: "equipment-bullet"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 65,
+                                                lineNumber: 66,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: "High-End Mics & Drum Kit Setup"
+                                                children: "High-End Mics, Guitars & Drums Kit Setup"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 66,
+                                                lineNumber: 67,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 65,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                lineNumber: 51,
+                                lineNumber: 52,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1166,7 +1166,7 @@ const StudioSpace = ()=>{
                                         children: "Book Rehearsal Space"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 72,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1177,20 +1177,20 @@ const StudioSpace = ()=>{
                                                 size: 16
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 75,
+                                                lineNumber: 76,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             " Call Customer Service"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 75,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                lineNumber: 70,
+                                lineNumber: 71,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -1232,14 +1232,14 @@ const StudioSpace = ()=>{
                                         className: "card-ambient-glow"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                        lineNumber: 100,
+                                        lineNumber: 101,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "card-ambient-glow-2"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 102,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1252,7 +1252,7 @@ const StudioSpace = ()=>{
                                                 fill: "rgba(255, 122, 48, 0.06)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 106,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -1260,13 +1260,13 @@ const StudioSpace = ()=>{
                                                 fill: "rgba(212, 175, 55, 0.04)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 109,
+                                                lineNumber: 110,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                        lineNumber: 104,
+                                        lineNumber: 105,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1277,7 +1277,7 @@ const StudioSpace = ()=>{
                                                 children: "MOHIKONTOK"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 117,
+                                                lineNumber: 118,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1285,14 +1285,14 @@ const StudioSpace = ()=>{
                                                 children: "Recording Studio & Rehearsal Place"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 118,
+                                                lineNumber: 119,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "card-line"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 119,
+                                                lineNumber: 120,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1305,7 +1305,7 @@ const StudioSpace = ()=>{
                                                                 className: "card-bullet"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                                lineNumber: 124,
+                                                                lineNumber: 125,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$music$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Music$3e$__["Music"], {
@@ -1315,20 +1315,20 @@ const StudioSpace = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                                lineNumber: 125,
+                                                                lineNumber: 126,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: "Rehearsal Space"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                                lineNumber: 126,
+                                                                lineNumber: 127,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                                        lineNumber: 123,
+                                                        lineNumber: 124,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1338,7 +1338,7 @@ const StudioSpace = ()=>{
                                                                 className: "card-bullet"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                                lineNumber: 129,
+                                                                lineNumber: 130,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$headphones$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Headphones$3e$__["Headphones"], {
@@ -1348,20 +1348,20 @@ const StudioSpace = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                                lineNumber: 130,
+                                                                lineNumber: 131,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: "Recording Studio"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                                lineNumber: 131,
+                                                                lineNumber: 132,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                                        lineNumber: 128,
+                                                        lineNumber: 129,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1371,7 +1371,7 @@ const StudioSpace = ()=>{
                                                                 className: "card-bullet"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                                lineNumber: 134,
+                                                                lineNumber: 135,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$volume$2d$2$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Volume2$3e$__["Volume2"], {
@@ -1381,20 +1381,20 @@ const StudioSpace = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                                lineNumber: 135,
+                                                                lineNumber: 136,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                children: "Sound System Rental"
+                                                                children: "instrumental Rental"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                                lineNumber: 136,
+                                                                lineNumber: 137,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                                        lineNumber: 133,
+                                                        lineNumber: 134,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1404,7 +1404,7 @@ const StudioSpace = ()=>{
                                                                 className: "card-bullet"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                                lineNumber: 139,
+                                                                lineNumber: 140,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$headphones$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Headphones$3e$__["Headphones"], {
@@ -1414,32 +1414,32 @@ const StudioSpace = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                                lineNumber: 140,
+                                                                lineNumber: 141,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: "Hire Musicians"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                                lineNumber: 141,
+                                                                lineNumber: 142,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                                        lineNumber: 138,
+                                                        lineNumber: 139,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 122,
+                                                lineNumber: 123,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                        lineNumber: 116,
+                                        lineNumber: 117,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1452,20 +1452,20 @@ const StudioSpace = ()=>{
                                                         size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                                        lineNumber: 149,
+                                                        lineNumber: 150,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "(929) 371-0371"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                                        lineNumber: 150,
+                                                        lineNumber: 151,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 148,
+                                                lineNumber: 149,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1475,20 +1475,20 @@ const StudioSpace = ()=>{
                                                         size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                                        lineNumber: 153,
+                                                        lineNumber: 154,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "www.mohikontok.com"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                                        lineNumber: 154,
+                                                        lineNumber: 155,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 153,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1498,42 +1498,42 @@ const StudioSpace = ()=>{
                                                         size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                                        lineNumber: 157,
+                                                        lineNumber: 158,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "1389 Kearney Ave Bronx NY 10465"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 159,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                                lineNumber: 156,
+                                                lineNumber: 157,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/StudioSpace.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 148,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/StudioSpace.tsx",
-                                lineNumber: 89,
+                                lineNumber: 90,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/StudioSpace.tsx",
-                            lineNumber: 88,
+                            lineNumber: 89,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/StudioSpace.tsx",
-                        lineNumber: 81,
+                        lineNumber: 82,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -1571,12 +1571,12 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$headphones$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Headphones$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/headphones.mjs [app-client] (ecmascript) <export default as Headphones>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mic$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mic$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mic.mjs [app-client] (ecmascript) <export default as Mic>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$settings$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Settings$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/settings.mjs [app-client] (ecmascript) <export default as Settings>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$globe$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/globe.mjs [app-client] (ecmascript) <export default as Globe>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$volume$2d$2$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Volume2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/volume-2.mjs [app-client] (ecmascript) <export default as Volume2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calendar.mjs [app-client] (ecmascript) <export default as Calendar>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$music$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Music$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/music.mjs [app-client] (ecmascript) <export default as Music>");
 "use client";
 ;
 ;
@@ -1584,7 +1584,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 const servicesList = [
     {
         title: "Recording Sessions",
-        price: "$50 / hour",
+        price: "$60 / HOUR",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mic$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mic$3e$__["Mic"], {
             size: 24,
             style: {
@@ -1595,7 +1595,7 @@ const servicesList = [
             lineNumber: 19,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        desc: "Capture high-fidelity vocal and instrument tracks in our professionally sound-treated environment.",
+        desc: "Capture high-fidelity vocal and instrumental tracks in our professionally acoustically treated soundproof environment.",
         features: [
             "High-end condenser & dynamic microphones",
             "Focusrite & Yamaha preamps",
@@ -1604,9 +1604,9 @@ const servicesList = [
         ]
     },
     {
-        title: "Rehearsal Space",
-        price: "$35 / hour",
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$headphones$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Headphones$3e$__["Headphones"], {
+        title: "Equipment Rent",
+        price: "BOOK OR INQUIRE",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$volume$2d$2$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Volume2$3e$__["Volume2"], {
             size: 24,
             style: {
                 color: 'var(--color-orange)'
@@ -1619,14 +1619,19 @@ const servicesList = [
         desc: "A fully equipped acoustic-treated rehearsal studio tailored for bands, solos, and podcasts.",
         features: [
             "Full acoustic drum kit & percussion",
-            "Marshall guitar & Yamaha bass cabinets/amps",
+            "Yamaha guitar & Ibanez bass guitar",
             "Yamaha keyboards & synthesizer setup",
-            "High-power active stage monitors"
+            "High-power active stage monitors",
+            "premium sound gear, monitors, and wireless microphones for private events and parties.",
+            "Active subwoofers & PA speakers",
+            "Multi-channel analog/digital mixers",
+            "UHF wireless handheld/lapel mics",
+            "Delivery, setup, and teardown services"
         ]
     },
     {
         title: "Mixing & Mastering",
-        price: "$60 / track",
+        price: "$60 / TRACK",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$settings$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Settings$3e$__["Settings"], {
             size: 24,
             style: {
@@ -1634,7 +1639,7 @@ const servicesList = [
             }
         }, void 0, false, {
             fileName: "[project]/src/components/Services.tsx",
-            lineNumber: 43,
+            lineNumber: 48,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         desc: "Professional audio post-production. Polish your rough tracks into release-ready masterpieces.",
@@ -1647,7 +1652,7 @@ const servicesList = [
     },
     {
         title: "Global Music Distribution",
-        price: "Custom Pricing",
+        price: "CUSTOM PRICING",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$globe$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe$3e$__["Globe"], {
             size: 24,
             style: {
@@ -1655,7 +1660,7 @@ const servicesList = [
             }
         }, void 0, false, {
             fileName: "[project]/src/components/Services.tsx",
-            lineNumber: 55,
+            lineNumber: 60,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         desc: "Get your tracks on all major platforms worldwide, ensuring official licensing and rights.",
@@ -1667,25 +1672,20 @@ const servicesList = [
         ]
     },
     {
-        title: "Sound Equipment Rental",
-        price: "Inquire for Rates",
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$volume$2d$2$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Volume2$3e$__["Volume2"], {
+        title: "Musician Band and Dance show",
+        price: "INQUIRE FOR RATES",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$music$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Music$3e$__["Music"], {
             size: 24,
             style: {
                 color: 'var(--color-orange)'
             }
         }, void 0, false, {
             fileName: "[project]/src/components/Services.tsx",
-            lineNumber: 67,
+            lineNumber: 72,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        desc: "Rent premium sound gear, monitors, and wireless microphones for private events and parties.",
-        features: [
-            "Active subwoofers & PA speakers",
-            "Multi-channel analog/digital mixers",
-            "UHF wireless handheld/lapel mics",
-            "Delivery, setup, and teardown services"
-        ]
+        desc: "Hire for your show to show your competitor.",
+        features: []
     }
 ];
 const Services = ()=>{
@@ -2426,8 +2426,8 @@ var _s = __turbopack_context__.k.signature();
 const services = [
     {
         id: 'rehearsal',
-        name: 'Rehearsal Space',
-        price: '$35/hr',
+        name: 'Instrumental Rental',
+        price: 'Inquiry',
         desc: 'Fully treated acoustics with Yamaha keyboards, Marshall amps, and acoustic drums.'
     },
     {
@@ -2444,7 +2444,7 @@ const services = [
     },
     {
         id: 'rental',
-        name: 'Sound Rental Inquiry',
+        name: 'PA Sound System Rental ',
         price: 'Varies',
         desc: 'Rent premium sound cabinets, monitors, and microphones for private parties/events.'
     }

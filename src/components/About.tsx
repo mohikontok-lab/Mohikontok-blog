@@ -34,11 +34,16 @@ const About: React.FC = () => {
               State-of-the-Art Recording & <span className="highlight">Audio Services</span>
             </h2>
             <p className="about-text">
-              Mohikontok Sound Lab is a professional recording studio, rehearsal space, and audio production facility located in Bronx, NY. 
-              We offer full-service sound solutions—ranging from vocal and instrument tracking, mixing, and mastering, to sound equipment rental for private events.
+              Mohikontok Sound Lab is a professional recording studio, rehearsal space, and audio
+              production facility located in the Bronx, NY. We offer full-service sound solutions—ranging from
+              vocal and instrument tracking, mixing, and mastering, to sound equipment rental for private
+              events.
             </p>
             <p className="about-text" style={{ color: 'var(--text-muted)' }}>
-              Led by industry professionals with over 30 years of composition, songwriting, and sound engineering experience, we help independent musicians, bands, podcasters, and content creators bring their acoustic ideas to life with high-fidelity clarity. We also specialize in global music distribution, registering ISRC/UPC codes to publish your tracks worldwide.
+              Directed by industry professionals with over 30 years of experience in composition, songwriting,
+              and sound engineering, we help independent musicians, bands, podcasters, and content
+              creators bring their acoustic ideas to life with high-resolution clarity. We also specialize in global
+              music distribution, registering ISRC/UPC codes to publish your tracks worldwide.
             </p>
 
             <div className="about-features">

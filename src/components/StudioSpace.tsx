@@ -43,9 +43,10 @@ const StudioSpace: React.FC = () => {
               Where Lyrical Ideas Find <span className="orange-highlight">Their Acoustic Voice</span>
             </h2>
             <p className="about-text">
-              Our New York facility is a fully optimized creative environment tailored for rehearsals, vocals tracking, 
-              instrumental sessions, and mixing. Spanned with advanced acoustic treatment and high-end instrument monitors, 
-              we offer rental services, DJ setups, and audio archiving capabilities.
+              Our New York facility is a fully optimized creative environment tailored for rehearsals, vocals
+              tracking, instrumental sessions, and mixing. Spanned with advanced acoustic treatment and
+              high-end instrument monitors, we offer rental services, DJ setups, and audio archiving
+              capabilities.
             </p>
 
             <ul className="equipment-list">
@@ -55,15 +56,15 @@ const StudioSpace: React.FC = () => {
               </li>
               <li className="equipment-item">
                 <span className="equipment-bullet"></span>
-                <span>Marshall & Yamaha Cabinets/Amps</span>
+                <span>Vevor Cabinets/Amps</span>
               </li>
               <li className="equipment-item">
                 <span className="equipment-bullet"></span>
-                <span>Fully Acoustic-treated Rehearsal Space</span>
+                <span>Fully Acoustic-treated space</span>
               </li>
               <li className="equipment-item">
                 <span className="equipment-bullet"></span>
-                <span>High-End Mics & Drum Kit Setup</span>
+                <span>High-End Mics, Guitars & Drums Kit Setup</span>
               </li>
             </ul>
 
@@ -133,7 +134,7 @@ const StudioSpace: React.FC = () => {
                     <div className="card-service-item">
                       <span className="card-bullet"></span>
                       <Volume2 size={12} style={{ color: 'var(--color-orange)' }} />
-                      <span>Sound System Rental</span>
+                      <span>instrumental Rental</span>
                     </div>
                     <div className="card-service-item">
                       <span className="card-bullet"></span>

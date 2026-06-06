@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Headphones, Mic, Settings, Globe, Volume2, Calendar } from 'lucide-react';
+import { Headphones, Mic, Settings, Globe, Volume2, Calendar, Music } from 'lucide-react';
 
 interface ServiceItem {
   title: string;
@@ -15,9 +15,9 @@ interface ServiceItem {
 const servicesList: ServiceItem[] = [
   {
     title: "Recording Sessions",
-    price: "$50 / hour",
+    price: "$60 / HOUR",
     icon: <Mic size={24} style={{ color: 'var(--color-orange)' }} />,
-    desc: "Capture high-fidelity vocal and instrument tracks in our professionally sound-treated environment.",
+    desc: "Capture high-fidelity vocal and instrumental tracks in our professionally acoustically treated soundproof environment.",
     features: [
       "High-end condenser & dynamic microphones",
       "Focusrite & Yamaha preamps",
@@ -26,20 +26,25 @@ const servicesList: ServiceItem[] = [
     ]
   },
   {
-    title: "Rehearsal Space",
-    price: "$35 / hour",
-    icon: <Headphones size={24} style={{ color: 'var(--color-orange)' }} />,
+    title: "Equipment Rent",
+    price: "BOOK OR INQUIRE",
+    icon: <Volume2 size={24} style={{ color: 'var(--color-orange)' }} />,
     desc: "A fully equipped acoustic-treated rehearsal studio tailored for bands, solos, and podcasts.",
     features: [
       "Full acoustic drum kit & percussion",
-      "Marshall guitar & Yamaha bass cabinets/amps",
+      "Yamaha guitar & Ibanez bass guitar",
       "Yamaha keyboards & synthesizer setup",
-      "High-power active stage monitors"
+      "High-power active stage monitors",
+      "premium sound gear, monitors, and wireless microphones for private events and parties.",
+      "Active subwoofers & PA speakers",
+      "Multi-channel analog/digital mixers",
+      "UHF wireless handheld/lapel mics",
+      "Delivery, setup, and teardown services"
     ]
   },
   {
     title: "Mixing & Mastering",
-    price: "$60 / track",
+    price: "$60 / TRACK",
     icon: <Settings size={24} style={{ color: 'var(--color-orange)' }} />,
     desc: "Professional audio post-production. Polish your rough tracks into release-ready masterpieces.",
     features: [
@@ -51,7 +56,7 @@ const servicesList: ServiceItem[] = [
   },
   {
     title: "Global Music Distribution",
-    price: "Custom Pricing",
+    price: "CUSTOM PRICING",
     icon: <Globe size={24} style={{ color: 'var(--color-orange)' }} />,
     desc: "Get your tracks on all major platforms worldwide, ensuring official licensing and rights.",
     features: [
@@ -62,16 +67,11 @@ const servicesList: ServiceItem[] = [
     ]
   },
   {
-    title: "Sound Equipment Rental",
-    price: "Inquire for Rates",
-    icon: <Volume2 size={24} style={{ color: 'var(--color-orange)' }} />,
-    desc: "Rent premium sound gear, monitors, and wireless microphones for private events and parties.",
-    features: [
-      "Active subwoofers & PA speakers",
-      "Multi-channel analog/digital mixers",
-      "UHF wireless handheld/lapel mics",
-      "Delivery, setup, and teardown services"
-    ]
+    title: "Musician Band and Dance show",
+    price: "INQUIRE FOR RATES",
+    icon: <Music size={24} style={{ color: 'var(--color-orange)' }} />,
+    desc: "Hire for your show to show your competitor.",
+    features: []
   }
 ];
 
