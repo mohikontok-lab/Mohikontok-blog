@@ -15,14 +15,70 @@ interface ServiceItem {
 const servicesList: ServiceItem[] = [
   {
     title: "Recording Sessions",
-    price: "$60 / HOUR",
+    price: "$65 / HOUR",
     icon: <Mic size={24} style={{ color: 'var(--color-orange)' }} />,
-    desc: "Capture high-fidelity vocal and instrumental tracks in our professionally acoustically treated soundproof environment.",
+    desc: "Capture high-fidelity vocal and instrumental tracks in our professionally soundproofed creative space in the Bronx.",
     features: [
       "High-end condenser & dynamic microphones",
       "Focusrite & Yamaha preamps",
       "Isolated acoustic vocal booths",
-      "Experienced tracking engineer included"
+      "Experienced tracking engineer included",
+      "Half-Day (4 hrs): $250–$500",
+      "Full-Day (8 hrs): $500–$1,000"
+    ]
+  },
+  {
+    title: "Mixing",
+    price: "FROM $250 / SONG",
+    icon: <Settings size={24} style={{ color: 'var(--color-orange)' }} />,
+    desc: "Professional mixing services to transform your rough tracks into polished, release-ready recordings.",
+    features: [
+      "Basic Mix: $100–$200",
+      "Professional Mix: $250–$500",
+      "Premium Mix: $500–$1,500+",
+      "Dynamic processing & compression",
+      "Frequency spectrum equalization (EQ)",
+      "Vocal pitch correction & tuning"
+    ]
+  },
+  {
+    title: "Mastering",
+    price: "FROM $75 / SONG",
+    icon: <Headphones size={24} style={{ color: 'var(--color-orange)' }} />,
+    desc: "Professional mastering to ensure your tracks sound polished, cohesive, and competitive across all streaming platforms.",
+    features: [
+      "Basic Mastering: $30–$75",
+      "Professional Mastering: $75–$200",
+      "Premium Mastering: $200–$500+",
+      "Optimized for streaming loudness targets",
+      "Final stereo enhancement & limiting",
+      "Multiple format delivery (WAV/MP3)"
+    ]
+  },
+  {
+    title: "Bundle Packages",
+    price: "FROM $399 / SONG",
+    icon: <Music size={24} style={{ color: 'var(--color-orange)' }} />,
+    desc: "Save with our combined recording, mixing, and mastering bundles — perfect for independent artists.",
+    features: [
+      "Recording + Mix + Master: $399/song",
+      "5-Song EP Package: $1,799",
+      "Demo Package: $150–$250/song",
+      "Commercial Release Package: $600–$1,500+/song",
+      "First-time artist discount: 15% off",
+      "2–3 revision rounds included"
+    ]
+  },
+  {
+    title: "Client Packages",
+    price: "$199 – $699",
+    icon: <Calendar size={24} style={{ color: 'var(--color-orange)' }} />,
+    desc: "All-in-one recording, mixing, and mastering packages designed for independent artists.",
+    features: [
+      "Bronze – $199: 2 hrs recording + basic mix + MP3/WAV delivery",
+      "Silver – $399: 4 hrs recording + professional mix + mastering + 2 revisions",
+      "Gold – $699: Full-day recording + premium mix + mastering + instrumental version + 3 revisions",
+      "First-time artist discount: 15% off"
     ]
   },
   {
@@ -35,23 +91,10 @@ const servicesList: ServiceItem[] = [
       "Yamaha guitar & Ibanez bass guitar",
       "Yamaha keyboards & synthesizer setup",
       "High-power active stage monitors",
-      "premium sound gear, monitors, and wireless microphones for private events and parties.",
       "Active subwoofers & PA speakers",
       "Multi-channel analog/digital mixers",
       "UHF wireless handheld/lapel mics",
       "Delivery, setup, and teardown services"
-    ]
-  },
-  {
-    title: "Mixing & Mastering",
-    price: "$60 / TRACK",
-    icon: <Settings size={24} style={{ color: 'var(--color-orange)' }} />,
-    desc: "Professional audio post-production. Polish your rough tracks into release-ready masterpieces.",
-    features: [
-      "Dynamic processing & compression",
-      "Frequency spectrum equalization (EQ)",
-      "High-fidelity vocal pitch correction",
-      "Optimized for streaming loudness targets"
     ]
   },
   {
@@ -65,13 +108,6 @@ const servicesList: ServiceItem[] = [
       "Royalties setup & metadata optimization",
       "Copyright ownership verification"
     ]
-  },
-  {
-    title: "Musician Band and Dance show",
-    price: "INQUIRE FOR RATES",
-    icon: <Music size={24} style={{ color: 'var(--color-orange)' }} />,
-    desc: "Hire for your show to show your competitor.",
-    features: []
   }
 ];
 
