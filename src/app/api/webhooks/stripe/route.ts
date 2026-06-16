@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import Stripe from "stripe";
 import { prisma } from "@/lib/prisma";
+import { syncBookingToGoogleCalendar } from "@/lib/google-calendar";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || "", {
   apiVersion: "2023-10-16" as any,
@@ -62,6 +63,11 @@ export async function POST(req: Request) {
         });
 
         console.log(`Booking successfully saved to database: ${booking.id}`);
+
+        // Trigger Google Calendar sync asynchronously
+        syncBookingToGoogleCalendar(booking.id).catch((err) => {
+          console.error("Calendar sync failed:", err);
+        });
       } catch (dbErr) {
         console.error("Failed to save booking to NeonDB:", dbErr);
         return NextResponse.json(

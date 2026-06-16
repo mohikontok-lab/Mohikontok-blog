@@ -1551,6 +1551,20 @@ textarea.form-control {
   box-shadow: 0 5px 12px rgba(var(--color-orange-rgb), 0.2);
 }
 
+.slot-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  text-decoration: line-through;
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+.slot-btn.booked {
+  background: rgba(238, 114, 52, 0.03) !important;
+  border-color: rgba(238, 114, 52, 0.15) !important;
+  color: var(--text-muted) !important;
+  box-shadow: none !important;
+}
+
 /* Success Step */
 .success-card {
   text-align: center;

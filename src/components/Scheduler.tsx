@@ -39,6 +39,8 @@ const Scheduler: React.FC = () => {
   const [currentMonth, setCurrentMonth] = useState(new Date(2026, 5, 1)); // June 2026
   const [selectedDate, setSelectedDate] = useState<Date | null>(new Date(2026, 5, 15)); // Default June 15, 2026
   const [selectedTimeSlot, setSelectedTimeSlot] = useState(timeSlots[2]); // Default 2:00 - 4:00 PM
+  const [bookedSlots, setBookedSlots] = useState<string[]>([]);
+  const [isLoadingAvailability, setIsLoadingAvailability] = useState(false);
   
   // Contact States
   const [name, setName] = useState('');
@@ -61,6 +63,7 @@ const Scheduler: React.FC = () => {
   const [isProcessingPayment, setIsProcessingPayment] = useState(false);
   const [paymentError, setPaymentError] = useState('');
   const [transactionId, setTransactionId] = useState('');
+  const [agreedToTerms, setAgreedToTerms] = useState(false);
 
   const searchParams = useSearchParams();
 
@@ -106,6 +109,27 @@ const Scheduler: React.FC = () => {
       }
     }
   }, [searchParams]);
+
+  // Fetch booked slots for the selected date
+  useEffect(() => {
+    if (selectedDate) {
+      setIsLoadingAvailability(true);
+      fetch(`/api/bookings/booked?date=${selectedDate.toISOString()}`)
+        .then(res => res.json())
+        .then(data => {
+          if (data.bookedSlots) {
+            setBookedSlots(data.bookedSlots);
+            // If currently selected slot is now booked, find first available slot
+            if (data.bookedSlots.includes(selectedTimeSlot)) {
+              const available = timeSlots.find(slot => !data.bookedSlots.includes(slot));
+              setSelectedTimeSlot(available || '');
+            }
+          }
+        })
+        .catch(err => console.error("Error fetching availability:", err))
+        .finally(() => setIsLoadingAvailability(false));
+    }
+  }, [selectedDate]);
 
   // Calculate pricing summary details
   const calculateTotalDetails = (service: Service) => {
@@ -260,7 +284,7 @@ const Scheduler: React.FC = () => {
     if (e) e.preventDefault();
     setPaymentError('');
     setIsProcessingPayment(true);
-
+    
     try {
       const response = await fetch('/api/checkout', {
         method: 'POST',
@@ -280,15 +304,16 @@ const Scheduler: React.FC = () => {
           userId: session?.user ? (session.user as any).id : null,
         }),
       });
-
+      
       const data = await response.json();
-
+      
       if (!response.ok) {
         throw new Error(data.error || 'Failed to initiate secure checkout.');
       }
-
+      
       if (data.url) {
-        window.location.href = data.url;
+        // window.location.href = data.url;
+        setStep(5)
       } else {
         throw new Error('Stripe session URL not found.');
       }
@@ -459,18 +484,28 @@ const Scheduler: React.FC = () => {
                     {/* Time slots */}
                     <div className="slots-picker">
                       <h4 className="slots-title">Available Time Slots:</h4>
-                      <div className="slots-grid">
-                        {timeSlots.map((slot) => (
-                          <button
-                            key={slot}
-                            onClick={() => setSelectedTimeSlot(slot)}
-                            className={`slot-btn ${selectedTimeSlot === slot ? 'selected' : ''}`}
-                          >
-                            <Clock size={12} style={{ display: 'inline', marginRight: '8px', verticalAlign: 'middle' }} />
-                            {slot}
-                          </button>
-                        ))}
-                      </div>
+                      {isLoadingAvailability ? (
+                        <div style={{ color: 'var(--text-muted)', fontSize: '0.85rem', padding: '10px' }}>
+                          Checking availability...
+                        </div>
+                      ) : (
+                        <div className="slots-grid">
+                          {timeSlots.map((slot) => {
+                            const isBooked = bookedSlots.includes(slot);
+                            return (
+                              <button
+                                key={slot}
+                                disabled={isBooked}
+                                onClick={() => setSelectedTimeSlot(slot)}
+                                className={`slot-btn ${selectedTimeSlot === slot ? 'selected' : ''} ${isBooked ? 'booked' : ''}`}
+                              >
+                                <Clock size={12} style={{ display: 'inline', marginRight: '8px', verticalAlign: 'middle' }} />
+                                {slot} {isBooked && " (Booked)"}
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
                     </div>
                   </div>
                 </motion.div>
@@ -518,7 +553,7 @@ const Scheduler: React.FC = () => {
                     <input
                       type="tel"
                       className="form-control"
-                      placeholder="(929) 371-0371"
+                      placeholder="(347) 497-3589"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
                     />
@@ -575,6 +610,98 @@ const Scheduler: React.FC = () => {
                             <ShieldCheck size={12} style={{ color: 'var(--color-gold)' }} />
                             <span>128-bit SSL Encryption Security</span>
                           </div>
+                        </div>
+
+                        <div className="studio-terms-container" style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '5px' }}>
+                          <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-light-gray)' }}>Studio Policy & Booking Agreement:</span>
+                          <div style={{
+                            padding: '15px',
+                            background: 'rgba(0, 0, 0, 0.25)',
+                            borderRadius: '10px',
+                            maxHeight: '180px',
+                            overflowY: 'auto',
+                            fontSize: '0.78rem',
+                            lineHeight: '1.5',
+                            color: 'rgba(255, 255, 255, 0.65)',
+                            border: '1px solid rgba(255, 255, 255, 0.05)',
+                            textAlign: 'left'
+                          }}>
+                            <p style={{ marginBottom: '10px', color: 'rgba(255, 255, 255, 0.9)' }}>
+                              We are committed to providing a safe, professional, and creative environment for all artists, musicians, podcasters, and guests.
+                            </p>
+                            <h5 style={{ color: 'var(--color-gold)', fontWeight: 600, margin: '8px 0 4px 0' }}>Respect the Space</h5>
+                            <ul>
+                              <li>Treat all studio equipment, furniture, and acoustic treatments with care.</li>
+                              <li>Do not move equipment without permission from staff.</li>
+                              <li>Report any damage or technical issues immediately.</li>
+                            </ul>
+                            
+                            <h5 style={{ color: 'var(--color-gold)', fontWeight: 600, margin: '8px 0 4px 0' }}>Session Time</h5>
+                            <ul>
+                              <li>Arrive 10–15 minutes before your scheduled session.</li>
+                              <li>Sessions begin and end at the reserved time.</li>
+                              <li>Additional time may be charged if available.</li>
+                            </ul>
+                            
+                            <h5 style={{ color: 'var(--color-gold)', fontWeight: 600, margin: '8px 0 4px 0' }}>Clean Studio Policy</h5>
+                            <ul>
+                              <li>No smoking, vaping, or illegal substances inside the facility.</li>
+                              <li>Food and drinks must be kept away from recording equipment.</li>
+                              <li>Dispose of trash before leaving.</li>
+                            </ul>
+                            
+                            <h5 style={{ color: 'var(--color-gold)', fontWeight: 600, margin: '8px 0 4px 0' }}>Guest Policy</h5>
+                            <ul>
+                              <li>Only registered guests may enter the studio.</li>
+                              <li>Visitors must remain with the booking client at all times.</li>
+                              <li>Large groups require prior approval.</li>
+                            </ul>
+                            
+                            <h5 style={{ color: 'var(--color-gold)', fontWeight: 600, margin: '8px 0 4px 0' }}>Noise & Hallway Courtesy</h5>
+                            <ul>
+                              <li>Keep conversations at a reasonable volume outside the studio rooms.</li>
+                              <li>Avoid disturbing neighboring sessions.</li>
+                              <li>Cell phones should be silenced during recording.</li>
+                            </ul>
+                            
+                            <h5 style={{ color: 'var(--color-gold)', fontWeight: 600, margin: '8px 0 4px 0' }}>Equipment Use</h5>
+                            <ul>
+                              <li>Studio microphones, mixers, instruments, and monitors must be used properly.</li>
+                              <li>Do not connect personal equipment without staff approval.</li>
+                              <li>Clients are responsible for any damage caused by misuse.</li>
+                            </ul>
+                            
+                            <h5 style={{ color: 'var(--color-gold)', fontWeight: 600, margin: '8px 0 4px 0' }}>Safety</h5>
+                            <ul>
+                              <li>Emergency exits must remain clear at all times.</li>
+                              <li>No running, horseplay, or unsafe behavior.</li>
+                              <li>Children under 16 must be supervised by an adult.</li>
+                            </ul>
+                            
+                            <h5 style={{ color: 'var(--color-gold)', fontWeight: 600, margin: '8px 0 4px 0' }}>Recording Etiquette</h5>
+                            <ul>
+                              <li>Respect the creative work and privacy of other artists.</li>
+                              <li>Do not photograph, record, or livestream others without permission.</li>
+                              <li>Unauthorized distribution of recordings is prohibited.</li>
+                            </ul>
+                            
+                            <h5 style={{ color: 'var(--color-gold)', fontWeight: 600, margin: '8px 0 4px 0' }}>Payment & Cancellations</h5>
+                            <ul>
+                              <li>Payment is due before or at the beginning of the session unless otherwise arranged.</li>
+                              <li>Cancellations should be made at least 24 hours in advance.</li>
+                              <li>No-shows may forfeit deposits.</li>
+                            </ul>
+                          </div>
+                          
+                          <label style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', fontSize: '0.85rem', color: 'rgba(255, 255, 255, 0.85)', marginTop: '5px' }}>
+                            <input
+                              type="checkbox"
+                              checked={agreedToTerms}
+                              onChange={(e) => setAgreedToTerms(e.target.checked)}
+                              style={{ accentColor: 'var(--color-gold)', width: '15px', height: '15px', cursor: 'pointer' }}
+                            />
+                            <span>I agree to the Studio Terms and Rules</span>
+                          </label>
                         </div>
 
                         <div className="stripe-logo-text" style={{ fontSize: '0.75rem', color: 'var(--text-muted)', borderTop: '1px solid rgba(255, 255, 255, 0.05)', paddingTop: '15px', display: 'flex', alignItems: 'center' }}>
@@ -695,8 +822,14 @@ const Scheduler: React.FC = () => {
               {step < 3 ? (
                 <button
                   onClick={() => setStep(step + 1)}
+                  disabled={step === 2 && (!selectedTimeSlot || bookedSlots.includes(selectedTimeSlot))}
                   className="btn btn-gold"
-                  style={{ padding: '10px 24px', fontSize: '0.8rem' }}
+                  style={{
+                    padding: '10px 24px',
+                    fontSize: '0.8rem',
+                    opacity: step === 2 && (!selectedTimeSlot || bookedSlots.includes(selectedTimeSlot)) ? 0.5 : 1,
+                    cursor: step === 2 && (!selectedTimeSlot || bookedSlots.includes(selectedTimeSlot)) ? 'not-allowed' : 'pointer'
+                  }}
                 >
                   Continue
                 </button>
@@ -718,11 +851,13 @@ const Scheduler: React.FC = () => {
                 !isProcessingPayment && (
                   <button
                     onClick={handlePaymentSubmit}
+                    disabled={!agreedToTerms}
                     className="btn btn-orange pulse-glow"
                     style={{
                       padding: '10px 24px',
                       fontSize: '0.8rem',
-                      cursor: 'pointer'
+                      cursor: agreedToTerms ? 'pointer' : 'not-allowed',
+                      opacity: agreedToTerms ? 1 : 0.5
                     }}
                   >
                     Proceed to secure payment
@@ -738,6 +873,7 @@ const Scheduler: React.FC = () => {
                     setNotes('');
                     setPaymentError('');
                     setTransactionId('');
+                    setAgreedToTerms(false);
                   }}
                   className="btn btn-outline"
                   style={{ padding: '10px 24px', fontSize: '0.8rem' }}

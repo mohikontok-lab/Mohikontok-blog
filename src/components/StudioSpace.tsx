@@ -72,7 +72,7 @@ const StudioSpace: React.FC = () => {
               <a href="#scheduler" className="btn btn-orange">
                 Book Rehearsal Space
               </a>
-              <a href="tel:929-371-0371" className="btn btn-outline">
+              <a href="tel:347-497-3589" className="btn btn-outline">
                 <Phone size={16} /> Call Customer Service
               </a>
             </div>
@@ -148,7 +148,7 @@ const StudioSpace: React.FC = () => {
                 <div className="card-bottom">
                   <div className="card-contact-item">
                     <Phone size={14} />
-                    <span>(929) 371-0371</span>
+                    <span>(347) 497-3589</span>
                   </div>
                   <div className="card-contact-item">
                     <Globe size={14} />
