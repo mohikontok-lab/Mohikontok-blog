@@ -66,7 +66,13 @@ const Contact: React.FC = () => {
               </div>
               <div className="footer-contact-item">
                 <Phone size={16} />
+                <a href="tel:363-777-0809">(363) 777-0809</a>
+                <span style={{ fontSize: '0.7rem', color: 'var(--color-gold)', marginLeft: '8px' }}>Support</span>
+              </div>
+              <div className="footer-contact-item">
+                <Phone size={16} />
                 <a href="tel:347-497-3589">(347) 497-3589</a>
+                <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginLeft: '8px' }}>Studio</span>
               </div>
               <div className="footer-contact-item">
                 <MapPin size={16} />
