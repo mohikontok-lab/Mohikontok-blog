@@ -15,21 +15,21 @@ interface Track {
 const SoundLibrary: React.FC = () => {
   const tracks: Track[] = [
     {
-      title: "Poetry Podcast 4: Lost in Your Eyes",
+      title: "Rehearsal space Saibam",
       cover: "/pics/mOHiKOnTOK SESSION.jpg",
       link: "https://open.spotify.com/artist/3r7P1vpv1GVFxQ9GnSHDS2",
       artist: "Mohikontok Spoken Word",
       desc: "Client Project: Full vocal tracking, stereo acoustic guitar processing, and spatial audio mixing completed at Mohikontok."
     },
     {
-      title: "Kobitar Gan 3 # Hridayera Rin",
+      title: "Video Editing Technology",
       cover: "/pics/MOHIKONTOK ARTISTS.jpg",
       link: "https://ditto.fm/kabitara-gana-3-hrdayera-rna",
       artist: "Sharif Siddiqui & Sohan Jajabor",
       desc: "Client Project: Multi-track folk fusion recording. Professional compression, frequency EQ balancing, and mastering for streaming platforms."
     },
     {
-      title: "The East River",
+      title: "Studio Recording session",
       cover: "/pics/MISTER NAS AKA EDAN BROWN.jpg",
       link: "https://ditto.fm/the-east-river",
       artist: "Hamid Zaman & Edan Brown",
@@ -78,21 +78,6 @@ const SoundLibrary: React.FC = () => {
                 <h4 className="release-title">{track.title}</h4>
                 <p className="release-desc">{track.desc}</p>
                 <div className="release-buttons">
-                  <button
-                    onClick={() => togglePlay(track)}
-                    className="btn btn-gold"
-                    style={{ padding: '8px 20px', fontSize: '0.8rem' }}
-                  >
-                    {isPlaying && currentTrack.title === track.title ? (
-                      <>
-                        <Pause size={14} fill="currentColor" /> Pause Preview
-                      </>
-                    ) : (
-                      <>
-                        <Play size={14} fill="currentColor" /> Play Preview
-                      </>
-                    )}
-                  </button>
                   <a
                     href={track.link}
                     target="_blank"
