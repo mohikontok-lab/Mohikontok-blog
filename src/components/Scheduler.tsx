@@ -17,7 +17,7 @@ interface Service {
 
 const services: Service[] = [
   { id: 'rehearsal', name: 'Instrumental Rental', price: 'Inquiry', desc: 'Fully treated acoustics with Yamaha keyboards, Marshall amps, and acoustic drums.' },
-  { id: 'recording', name: 'Recording Session', price: '$50/hr', desc: 'Vocal tracking and live instrumentation using high-end mics and sound interfaces.' },
+  { id: 'recording', name: 'Recording Session', price: '$65/hr', desc: 'Vocal tracking and live instrumentation using high-end mics and sound interfaces.' },
   { id: 'mastering', name: 'Mixing & Mastering', price: '$60/track', desc: 'Professional audio post-production, digital filtering, and high-fidelity output tuning.' },
   { id: 'rental', name: 'PA Sound System Rental ', price: 'Varies', desc: 'Rent premium sound cabinets, monitors, and microphones for private parties/events.' }
 ];
@@ -140,8 +140,8 @@ const Scheduler: React.FC = () => {
       subtotal = 70.00;
       breakdown = 'Rehearsal Space ($35/hr × 2 hrs)';
     } else if (service.id === 'recording') {
-      subtotal = 100.00;
-      breakdown = 'Recording Session ($50/hr × 2 hrs)';
+      subtotal = 130.00;
+      breakdown = 'Recording Session ($65/hr × 2 hrs)';
     } else if (service.id === 'mastering') {
       subtotal = 60.00;
       breakdown = 'Mixing & Mastering (1 track)';

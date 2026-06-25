@@ -79,7 +79,7 @@ const About: React.FC = () => {
                 "Our mission is to give artists the technical precision and acoustic space to realize their sound."
               </p>
               <h5>Mohammad Nasirullah</h5>
-              <span>Founder & Chief Engineer</span>
+              <span>Founder, writer and educator</span>
             </div>
           </motion.div>
         </div>

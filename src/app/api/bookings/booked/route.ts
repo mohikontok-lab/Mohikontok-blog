@@ -27,7 +27,7 @@ export async function GET(req: Request) {
       },
     });
 
-    const bookedSlots = bookings.map(b => b.timeSlot);
+    const bookedSlots = bookings.map((b: { timeSlot: string }) => b.timeSlot);
     return NextResponse.json({ bookedSlots });
   } catch (err: any) {
     console.error("Error fetching booked slots:", err);

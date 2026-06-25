@@ -31,6 +31,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
     { id: 'studio', label: 'Studio Space' },
     { id: 'services', label: 'Services & Rates' },
     { id: 'music', label: 'Portfolio' },
+    { id: 'blog', label: 'Blog', external: 'https://blog.mohikontok.com' },
     { id: 'scheduler', label: 'Book Now' },
   ];
 
@@ -47,8 +48,9 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
           {navLinks.map((link) => (
             <li key={link.id}>
               <a
-                href={`#${link.id}`}
+                href={link.external || `#${link.id}`}
                 className={`nav-link ${activeSection === link.id ? 'active' : ''}`}
+                {...(link.external ? { target: '_blank', rel: 'noreferrer' } : {})}
               >
                 {link.label}
               </a>
@@ -139,8 +141,9 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
           {navLinks.map((link) => (
             <li key={link.id} onClick={() => setIsMenuOpen(false)}>
               <a
-                href={`#${link.id}`}
+                href={link.external || `#${link.id}`}
                 className={`nav-link ${activeSection === link.id ? 'active' : ''}`}
+                {...(link.external ? { target: '_blank', rel: 'noreferrer' } : {})}
               >
                 {link.label}
               </a>
