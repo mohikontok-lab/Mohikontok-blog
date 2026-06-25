@@ -14,9 +14,9 @@ interface ServiceItem {
 
 const servicesList: ServiceItem[] = [
   {
-    title: "Recording Sessions",
-    price: "$65 / HOUR",
-    icon: <Mic size={24} style={{ color: 'var(--color-orange)' }} />,
+  title: "Studio",
+  price: "$65 / HOUR",
+  icon: <Mic size={24} style={{ color: 'var(--color-orange)' }} />,
     desc: "Capture high-fidelity vocal and instrumental tracks in our professionally soundproofed creative space in the Bronx.",
     features: [
       "High-end condenser & dynamic microphones",
@@ -56,7 +56,7 @@ const servicesList: ServiceItem[] = [
     ]
   },
   {
-    title: "Bundle Packages",
+    title: "New Haven package",
     price: "FROM $399 / SONG",
     icon: <Music size={24} style={{ color: 'var(--color-orange)' }} />,
     desc: "Save with our combined recording, mixing, and mastering bundles — perfect for independent artists.",
@@ -70,7 +70,7 @@ const servicesList: ServiceItem[] = [
     ]
   },
   {
-    title: "Client Packages",
+    title: "Sound Lab Package",
     price: "$199 – $699",
     icon: <Calendar size={24} style={{ color: 'var(--color-orange)' }} />,
     desc: "All-in-one recording, mixing, and mastering packages designed for independent artists.",
@@ -82,7 +82,7 @@ const servicesList: ServiceItem[] = [
     ]
   },
   {
-    title: "Equipment Rent",
+    // (removed Equipment Rent entry)
     price: "BOOK OR INQUIRE",
     icon: <Volume2 size={24} style={{ color: 'var(--color-orange)' }} />,
     desc: "A fully equipped acoustic-treated rehearsal studio tailored for bands, solos, and podcasts.",

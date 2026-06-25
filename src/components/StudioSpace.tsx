@@ -134,7 +134,7 @@ const StudioSpace: React.FC = () => {
                     <div className="card-service-item">
                       <span className="card-bullet"></span>
                       <Volume2 size={12} style={{ color: 'var(--color-orange)' }} />
-                      <span>instrumental Rental</span>
+                      <span>copyright song</span>
                     </div>
                     <div className="card-service-item">
                       <span className="card-bullet"></span>

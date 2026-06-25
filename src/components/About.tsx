@@ -31,7 +31,7 @@ const About: React.FC = () => {
           >
             <span className="section-tag">Our Studio</span>
             <h2 className="section-title">
-              State-of-the-Art Recording & <span className="highlight">Audio Services</span>
+              State of the art recording
             </h2>
             <p className="about-text">
               Mohikontok Sound Lab is a professional recording studio, rehearsal space, and audio
