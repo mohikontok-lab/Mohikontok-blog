@@ -12,7 +12,12 @@ dist
 dist-ssr
 *.local
 .next
+.open-next
+.wrangler
+dev.db
+dev.db-journal
 dist
+tsconfig.tsbuildinfo
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

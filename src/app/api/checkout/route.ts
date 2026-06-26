@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import Stripe from "stripe";
 import { prisma } from "@/lib/prisma";
+import { syncBookingToGoogleCalendar } from "@/lib/google-calendar";
+import { sendBookingConfirmationEmail } from "@/lib/email";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || "", {
   apiVersion: "2023-10-16" as any,
@@ -80,6 +82,49 @@ export async function POST(req: Request) {
     const stripeFee = parseFloat((subtotal * 0.029 + 0.3).toFixed(2));
     const total = parseFloat((subtotal + stripeFee).toFixed(2));
     const amountInCents = Math.round(total * 100);
+
+    if (process.env.BYPASS_PAYMENT === "true") {
+      const transactionId = `mock_${Math.random().toString(36).substring(2, 11)}`;
+
+      const booking = await prisma.booking.create({
+        data: {
+          userId: userId || null,
+          serviceName,
+          price: `$${total}`,
+          date: new Date(date),
+          timeSlot,
+          clientName: name,
+          clientEmail: email,
+          clientPhone: phone || null,
+          notes: notes || null,
+          status: "paid",
+          transactionId,
+        },
+      });
+
+      syncBookingToGoogleCalendar(booking.id).catch((err) => {
+        console.error("Calendar sync failed:", err);
+      });
+
+      try {
+        await sendBookingConfirmationEmail({
+          name,
+          email,
+          serviceName,
+          date,
+          timeSlot,
+          transactionId,
+        });
+        console.log(`Sent booking confirmation email to ${email}`);
+      } catch (emailErr) {
+        console.error("Failed to send booking confirmation email:", emailErr);
+      }
+
+      return NextResponse.json({
+        bypassPayment: true,
+        transactionId,
+      });
+    }
 
     const baseUrl = process.env.NEXTAUTH_URL || "http://localhost:3000";
 

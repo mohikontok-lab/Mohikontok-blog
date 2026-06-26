@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Headphones, Mic, Settings, Globe, Volume2, Calendar, Music } from 'lucide-react';
+import { Headphones, Mic, Settings, Globe, Calendar, Music } from 'lucide-react';
 
 interface ServiceItem {
   title: string;
@@ -79,22 +79,6 @@ const servicesList: ServiceItem[] = [
       "Silver – $399: 4 hrs recording + professional mix + mastering + 2 revisions",
       "Gold – $699: Full-day recording + premium mix + mastering + instrumental version + 3 revisions",
       "First-time artist discount: 15% off"
-    ]
-  },
-  {
-    // (removed Equipment Rent entry)
-    price: "BOOK OR INQUIRE",
-    icon: <Volume2 size={24} style={{ color: 'var(--color-orange)' }} />,
-    desc: "A fully equipped acoustic-treated rehearsal studio tailored for bands, solos, and podcasts.",
-    features: [
-      "Full acoustic drum kit & percussion",
-      "Yamaha guitar & Ibanez bass guitar",
-      "Yamaha keyboards & synthesizer setup",
-      "High-power active stage monitors",
-      "Active subwoofers & PA speakers",
-      "Multi-channel analog/digital mixers",
-      "UHF wireless handheld/lapel mics",
-      "Delivery, setup, and teardown services"
     ]
   },
   {
