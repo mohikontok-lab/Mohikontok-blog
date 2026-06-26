@@ -38,16 +38,10 @@ const StudioSpace: React.FC = () => {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8 }}
           >
-            <span className="section-tag" style={{ color: 'var(--color-orange)' }}>The Sound Lab Space</span>
+            <span className="section-tag" style={{ color: 'var(--color-orange)' }}>The Soumd Lab Space</span>
             <h2 className="section-title">
               Where Lyrical Ideas Find <span className="orange-highlight">Their Acoustic Voice</span>
             </h2>
-            <p className="about-text">
-              Our New York facility is a fully optimized creative environment tailored for rehearsals, vocals
-              tracking, instrumental sessions, and mixing. Spanned with advanced acoustic treatment and
-              high-end instrument monitors, we offer rental services, DJ setups, and audio archiving
-              capabilities.
-            </p>
 
             <ul className="equipment-list">
               <li className="equipment-item">

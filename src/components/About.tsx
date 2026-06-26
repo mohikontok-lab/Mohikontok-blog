@@ -56,6 +56,44 @@ const About: React.FC = () => {
                 <p>Soundproofed tracking rooms and rehearsal spaces configured for bands and audio engineers.</p>
               </div>
             </div>
+
+            {/* Music Video */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-100px' }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              style={{ marginTop: '40px' }}
+            >
+              <span className="section-tag" style={{ color: 'var(--color-orange)', display: 'block', marginBottom: '12px' }}>
+                🎬 Why Mohikontok — Original Sound
+              </span>
+              <div style={{
+                position: 'relative',
+                width: '100%',
+                borderRadius: '12px',
+                overflow: 'hidden',
+                border: '1px solid rgba(212, 175, 55, 0.2)',
+                boxShadow: '0 8px 32px rgba(0, 0, 0, 0.5)',
+              }}>
+                <video
+                  controls
+                  preload="metadata"
+                  poster="/pics/Gemini_Generated_Image_h195y8h195y8h195.png"
+                  style={{
+                    width: '100%',
+                    display: 'block',
+                    background: '#070708',
+                  }}
+                >
+                  <source src="/why-mohikontok-4k.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '8px', textAlign: 'center' }}>
+                Composed at Mohikontok Sound Lab · 4K
+              </p>
+            </motion.div>
           </motion.div>
 
           {/* Right Image Content */}
