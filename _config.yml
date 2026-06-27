@@ -1,0 +1,14 @@
+title: "Mohikontok Sound Lab Blog"
+description: "Soundproof science, studio stories, and creator guides from the Bronx"
+baseurl: "/Mohikontok-blog"
+url: "https://mohikontok-lab.github.io"
+theme: minima
+minima:
+  skin: dark
+author:
+  name: "Mohikontok Sound Lab"
+  email: "studio@mohikontok.com"
+show_excerpts: true
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
