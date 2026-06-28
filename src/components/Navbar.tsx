@@ -31,7 +31,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
     { id: 'studio', label: 'Studio Space' },
     { id: 'services', label: 'Services & Rates' },
     { id: 'music', label: 'Portfolio' },
-    { id: 'blog', label: 'Blog', external: 'https://blog.mohikontok.com' },
+    { id: 'blog', label: 'Blog', external: '/blog' },
     { id: 'scheduler', label: 'Book Now' },
   ];
 

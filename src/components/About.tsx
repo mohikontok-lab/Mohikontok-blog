@@ -89,6 +89,19 @@ const About: React.FC = () => {
                   <source src="/why-mohikontok-4k.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
+                <video
+                  controls
+                  preload="metadata"
+                  poster="/pics/MUSAFIR MUKTA.jpg"
+                  style={{
+                    width: '100%',
+                    display: 'block',
+                    background: '#070708',
+                  }}
+                >
+                  <source src="/why-mohikontok-2nd.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '8px', textAlign: 'center' }}>
                 Composed at Mohikontok Sound Lab · 4K

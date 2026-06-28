@@ -53,7 +53,7 @@ const Contact: React.FC = () => {
               <li><a href="#studio">Studio Space</a></li>
               <li><a href="#services">Services & Rates</a></li>
               <li><a href="#music">Portfolio</a></li>
-              <li><a href="https://blog.mohikontok.com" target="_blank" rel="noreferrer">Blog</a></li>
+              <li><a href="/blog" target="_blank" rel="noreferrer">Blog</a></li>
             </ul>
           </div>
 
