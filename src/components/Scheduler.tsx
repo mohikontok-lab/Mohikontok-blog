@@ -16,10 +16,12 @@ interface Service {
 }
 
 const services: Service[] = [
-  { id: 'rehearsal', name: 'Instrumental Rental', price: 'Inquiry', desc: 'Fully treated acoustics with Yamaha keyboards, Marshall amps, and acoustic drums.' },
-  { id: 'recording', name: 'Recording Session', price: '$65/hr', desc: 'Vocal tracking and live instrumentation using high-end mics and sound interfaces.' },
-  { id: 'mastering', name: 'Mixing & Mastering', price: '$60/track', desc: 'Professional audio post-production, digital filtering, and high-fidelity output tuning.' },
-  { id: 'rental', name: 'PA Sound System Rental ', price: 'Varies', desc: 'Rent premium sound cabinets, monitors, and microphones for private parties/events.' }
+  { id: 'studio', name: 'Studio', price: '$65 / HOUR', desc: 'Capture high-fidelity vocal and instrumental tracks in our professionally soundproofed creative space in the Bronx.' },
+  { id: 'mixing', name: 'Mixing', price: 'FROM $250 / SONG', desc: 'Professional mixing services to transform your rough tracks into polished, release-ready recordings.' },
+  { id: 'mastering', name: 'Mastering', price: 'FROM $75 / SONG', desc: 'Professional mastering to ensure your tracks sound polished, cohesive, and competitive across all streaming platforms.' },
+  { id: 'new-haven', name: 'New Haven package', price: 'FROM $399 / SONG', desc: 'Save with our combined recording, mixing, and mastering bundles — perfect for independent artists.' },
+  { id: 'sound-lab', name: 'Sound Lab Package', price: '$199 – $699', desc: 'All-in-one recording, mixing, and mastering packages designed for independent artists.' },
+  { id: 'global-distribution', name: 'Global Music Distribution', price: 'CUSTOM PRICING', desc: 'Get your tracks on all major platforms worldwide, ensuring official licensing and rights.' }
 ];
 
 const timeSlots = [
@@ -133,23 +135,20 @@ const Scheduler: React.FC = () => {
 
   // Calculate pricing summary details
   const calculateTotalDetails = (service: Service) => {
-    let subtotal = 0;
-    let breakdown = '';
-    
-    if (service.id === 'rehearsal') {
-      subtotal = 70.00;
-      breakdown = 'Rehearsal Space ($35/hr × 2 hrs)';
-    } else if (service.id === 'recording') {
-      subtotal = 130.00;
-      breakdown = 'Recording Session ($65/hr × 2 hrs)';
-    } else if (service.id === 'mastering') {
-      subtotal = 60.00;
-      breakdown = 'Mixing & Mastering (1 track)';
-    } else {
-      subtotal = 150.00;
-      breakdown = 'Sound Rental Booking Deposit';
-    }
+  // Map service IDs to pricing details
+  const pricingMap: Record<string, {subtotal: number; breakdown: string}> = {
+    studio: { subtotal: 130, breakdown: 'Studio Rental ($65/hr × 2 hrs)' },
+    mixing: { subtotal: 250, breakdown: 'Mixing (FROM $250 / SONG)' },
+    mastering: { subtotal: 75, breakdown: 'Mastering (FROM $75 / SONG)' },
+    "new-haven": { subtotal: 399, breakdown: 'New Haven package (FROM $399 / SONG)' },
+    "sound-lab": { subtotal: 350, breakdown: 'Sound Lab Package (average price)' },
+    "global-distribution": { subtotal: 0, breakdown: 'Custom Pricing - consult for quote' }
+  };
+  // Default pricing if service not in map
+  const defaultPricing = { subtotal: 150, breakdown: 'Service Deposit' };
+  const { subtotal, breakdown } = pricingMap[service.id] || defaultPricing;
 
+    // Use subtotal and breakdown from the pricing map above
     const stripeFee = parseFloat((subtotal * 0.029 + 0.30).toFixed(2));
     const total = parseFloat((subtotal + stripeFee).toFixed(2));
 
@@ -328,7 +327,7 @@ const Scheduler: React.FC = () => {
     <section id="scheduler" className="section-padding bg-secondary scheduler-section">
       <div className="container-width">
         <div style={{ textAlign: 'center', marginBottom: '50px' }}>
-          <span className="section-tag">Booking Engine</span>
+          <span className="section-tag">Price Matching Services</span>
           <h2 className="section-title">
             Reserve the <span className="highlight">Sound Lab</span>
           </h2>

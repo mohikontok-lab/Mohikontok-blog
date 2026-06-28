@@ -61,7 +61,7 @@ export default function Home() {
         <SoundLibrary />
 
         {/* Google Calendar Interactive Booking Form */}
-        <Suspense fallback={<div style={{ textAlign: 'center', padding: '100px 0', color: 'var(--text-muted)' }}>Loading Booking Engine...</div>}>
+        <Suspense fallback={<div style={{ textAlign: 'center', padding: '100px 0', color: 'var(--text-muted)' }}>Loading Price Matching Services...</div>}>
           <Scheduler />
         </Suspense>
       </main>
