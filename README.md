@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# Mohikontok Sound Lab Repository
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Mohikontok Sound Lab** codebase – a creative hub where audio, music, and intelligent automation converge. This repo hosts the core projects that power our sound‑design tools, web presence, and AI‑driven workflows.
 
-Currently, two official plugins are available:
+## 🚀 What’s Inside?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Web Front‑end** – A modern React + TypeScript + Vite stack that powers the Mohikontok website and the interactive SoundLibrary grid.
+- **Audio Automation** – Scripts and services for generating AI‑music (Suno, HeartMuLa), creating 4K video renders, and publishing to `mohikontok.com`.
+- **Infrastructure** – Cloudflare Tunnel setup, cron‑driven outreach bots, and smart‑home integration for studio lighting.
+- **Documentation & Skills** – A growing collection of **skills** (reusable Hermes workflows) for tasks like blog publishing, outreach monitoring, and sound‑proofing guides.
 
-## React Compiler
+## 📦 Quick Start (Local Development)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# Clone the repo (already available at /opt/data/workspace/mohikontok)
+cd /opt/data/workspace/mohikontok
 
-## Expanding the ESLint configuration
+# Install Node dependencies (requires Node ≥18)
+npm ci
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Start the development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The site will be available at `http://localhost:5173`. For production, run:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build   # builds static assets into ./dist
+npm run preview # serves the built site locally
 ```
+
+## 🛠️ Backend Services
+
+### Cloudflare Tunnel
+The website is exposed publicly via a Cloudflare Tunnel (port 8889). To spin it up locally:
+
+```bash
+# Ensure cf_email_sender.py and .cloudflare.env are present
+./cf_email_sender.py tunnel start --port 8889
+```
+
+### Cron‑Driven Automation
+We use Hermes Agent’s cron system for daily outreach monitoring and blog post generation. To view or edit jobs:
+
+```bash
+hermes cron list
+hermes cron edit <job_id>
+```
+
+## 🤝 Contributing
+
+1. **Fork** the repository.
+2. Create a feature branch: `git checkout -b feat/your‑feature`.
+3. Follow the existing code style (ESLint + TypeScript strict rules).
+4. Run tests (if any) and ensure the site builds.
+5. Open a Pull Request – our CI will run linting, type‑checking, and deployment checks.
+
+## 📄 License
+
+This project is licensed under the MIT License – see the `LICENSE` file for details.
+
+## 🎧 About Mohikontok
+
+Mohikontok Sound Lab empowers creators in the Bronx and beyond with AI‑enhanced audio tools, research‑driven sound‑proofing guides, and community‑focused outreach. We blend technical rigor with playful creativity – think of us as the lab‑grown companion that loves turning ideas into sonic reality.
+
+---
+
+*Generated and maintained by the Mohikontok AI assistant.*
