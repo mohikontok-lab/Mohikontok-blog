@@ -1,228 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mohikontok Sound Lab — Blog</title>
+<meta charset="UTF-8"/>
+<title>Maha Biswas – Blog Posts</title>
 <style>
-:root {
-  --bg-primary: #070708;
-  --bg-secondary: #0d0d10;
-  --bg-light: #16161c;
-  --color-gold: #d4af37;
-  --color-orange: #ff7a30;
-  --color-purple: #8a2be2;
-  --text-primary: #ffffff;
-  --text-secondary: #b3b3b3;
-  --text-muted: #6b6b75;
-  --font-serif: 'Playfair Display', Georgia, serif;
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-}
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { background: var(--bg-primary); color: var(--text-primary); font-family: var(--font-sans); line-height: 1.7; }
-.container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
-.header { text-align: center; padding: 60px 20px 40px; border-bottom: 1px solid rgba(212,175,55,0.15); }
-.header h1 { font-family: var(--font-serif); font-size: 2.5rem; color: var(--color-gold); margin-bottom: 8px; }
-.header p { color: var(--text-secondary); font-size: 1rem; }
-.header a { color: var(--color-orange); text-decoration: none; font-size: 0.9rem; }
-.author-section { margin: 50px 0; }
-.author-header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid; }
-.author-edan { border-color: rgba(212,175,55,0.3); }
-.author-maha { border-color: rgba(138,43,226,0.3); }
-.author-avatar { width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; font-family: var(--font-serif); flex-shrink: 0; }
-.avatar-edan { background: rgba(212,175,55,0.15); color: var(--color-gold); border: 2px solid rgba(212,175,55,0.3); }
-.avatar-maha { background: rgba(138,43,226,0.15); color: var(--color-purple); border: 2px solid rgba(138,43,226,0.3); }
-.author-info h2 { font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 2px; }
-.author-info p { font-size: 0.85rem; color: var(--text-muted); }
-.author-edan h2 { color: var(--color-gold); }
-.author-maha h2 { color: var(--color-purple); }
-.post-item { margin-bottom: 24px; padding: 24px; background: var(--bg-secondary); border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); transition: border-color 0.3s; }
-.post-item:hover { border-color: rgba(212,175,55,0.25); }
-.post-item.maha:hover { border-color: rgba(138,43,226,0.25); }
-.post-item h3 { font-family: var(--font-serif); font-size: 1.25rem; margin-bottom: 6px; }
-.post-item h3 a { color: var(--text-primary); text-decoration: none; }
-.post-item h3 a:hover { color: var(--color-gold); }
-.post-item.maha h3 a:hover { color: var(--color-purple); }
-.post-meta { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 10px; }
-.post-excerpt { color: var(--text-secondary); font-size: 0.92rem; }
-.post-tags { margin-top: 10px; }
-.post-tags span { display: inline-block; font-size: 0.72rem; padding: 2px 8px; border-radius: 20px; margin-right: 5px; }
-.tags-edan span { background: rgba(255,122,48,0.1); color: var(--color-orange); }
-.tags-maha span { background: rgba(138,43,226,0.15); color: var(--color-purple); }
-.read-more { display: inline-block; margin-top: 10px; font-weight: 600; font-size: 0.85rem; text-decoration: none; }
-.read-more.edan { color: var(--color-gold); }
-.read-more.maha { color: var(--color-purple); }
-.read-more:hover { opacity: 0.8; }
-.footer { text-align: center; padding: 40px 20px; border-top: 1px solid rgba(255,255,255,0.05); color: var(--text-muted); font-size: 0.85rem; }
-.footer a { color: var(--color-gold); text-decoration: none; }
+.body {background-color:#070708;color:#e0e0e0;font-family:Arial,sans-serif;padding:2rem;}
+.post-item.maha {border:1px solid #8a2be2;margin:1rem 0;padding:1rem;border-radius:8px;}
+.post-item.maha .title {color:#8a2be2;font-size:1.2em;}
+.post-item.maha .tags {color:#ff7a30;}
 </style>
 </head>
 <body>
-<div class="header">
-<h1>🎸 Mohikontok Sound Lab Blog</h1>
-<p>Soundproof science, studio stories, and creator guides from the Bronx</p>
-<p style="margin-top:12px"><a href="https://mohikontok.com">← Back to mohikontok.com</a></p>
-</div>
-<div class="container">
-
-<!-- EDAN BROWN SECTION -->
-<div class="author-section">
-<div class="author-header author-edan">
-<div class="author-avatar avatar-edan">EB</div>
-<div class="author-info">
-<h2>Edan Brown</h2>
-<p>Studio writer · Soundproof science for content creators</p>
-</div>
-</div>
-
-<div class="post-item">
-<h3><a href="soundproofing-by-bruckner-blvd.html">Soundproofing a Studio by Noisy Bruckner Blvd — What We Learned at 1389 Kearney</a></h3>
-<div class="post-meta">June 26, 2026 · 8 min read</div>
-<p class="post-excerpt">If you've ever stood on Kearney Ave at 2 PM and felt a semi truck rattle your chest cavity from Bruckner Boulevard, you know why this blog exists. We built a recording studio 200 feet from one of the loudest corridors in the Bronx — and somehow, it works.</p>
-<div class="post-tags tags-edan"><span>soundproofing</span><span>bruckner-blvd</span><span>bronx</span><span>studio-build</span></div>
-<a class="read-more edan" href="soundproofing-by-bruckner-blvd.html">Read more →</a>
-</div>
-
-<div class="post-item">
-<h3><a href="green-glue-viscoelastic-damping.html">Green Glue & Viscoelastic Damping: How It Actually Works for Content Creators</a></h3>
-<div class="post-meta">June 26, 2026 · 5 min read</div>
-<p class="post-excerpt">Green Glue turned our noisy Bronx basement into a clean-recording sanctuary. Learn the science behind viscoelastic damping and how a few dollars can boost your STC rating by 7 points.</p>
-<div class="post-tags tags-edan"><span>soundproofing</span><span>green-glue</span><span>creator-guide</span></div>
-<a class="read-more edan" href="green-glue-viscoelastic-damping.html">Read more →</a>
-</div>
-
-<div class="post-item">
-<h3><a href="brio-artists-support-emerging-bronx-talent.html">BRIO Artists: How We Support Emerging Bronx Talent</a></h3>
-<div class="post-meta">June 26, 2026 · 2 min read</div>
-<p class="post-excerpt">The Bronx is buzzing with creative energy, but the streets can drown out new artists. See how we partner with BRIO to give creators a quiet sanctuary.</p>
-<div class="post-tags tags-edan"><span>community</span><span>BRIO</span><span>Bronx</span><span>emerging artists</span><span>support</span></div>
-<a class="read-more edan" href="brio-artists-support-emerging-bronx-talent.html">Read more →</a>
-</div>
-</div>
-
-<div class="post-item">
-<h3><a href="mass-loaded-vinyl-on-ceilings-why-mlv-beats-foam.html">Mass-Loaded Vinyl on Ceilings: Why MLV Beats Foam</a></h3>
-<div class="post-meta">June 27, 2026 · 5 min read</div>
-<p class="post-excerpt">If your ceiling feels like a trampoline for truck rumble, swapping foam for Mass-Loaded Vinyl can silence the Bronx street symphony. Maha Biswas swears the difference made her podcast sound studio‑grade without breaking the bank.</p>
-<div class="post-tags tags-edan"><span>soundproofing</span><span>mass-loaded vinyl</span><span>budget</span></div>
-<a class="read-more edan" href="mass-loaded-vinyl-on-ceilings-why-mlv-beats-foam.html">Read more →</a>
-</div>
-
-<div class="post-item">
-<h3><a href="every-hour-booked-running-24-7-studio-bronx.html">Every Hour Booked: Running a 24/7 Studio in the Bronx</a></h3>
-<div class="post-meta">June 27, 2026 · 6 min read</div>
-<p class="post-excerpt">Running a 24/7 studio in the Bronx means battling midnight truck rumble, but soundproof science lets us keep creators recording whenever they need.</p>
-<div class="post-tags tags-edan"><span>studio-life</span><span>operations</span><span>bronx</span></div>
-116|<a class="read-more edan" href="every-hour-booked-running-24-7-studio-bronx.html">Read more →</a>
-117|</div>
-118|
-119|<div class="post-item">
-120|  <h3><a href="floating-floors-would-we-do-it-next-time.html">Floating Floors: Would We Do It Next Time?</a></h3>
-121|  <div class="post-meta">June 27, 2026 · 5 min read</div>
-122|  <p class="post-excerpt">A decoupled flooring system can cut low‑frequency rumble by 8‑12 dB, turning a noisy Bronx basement into a clean recording space.</p>
-123|  <div class="post-tags tags-edan"><span>soundproofing</span><span>floating-floors</span><span>budget</span></div>
-124|  <a class="read-more edan" href="floating-floors-would-we-do-it-next-time.html">Read more →</a>
-125|</div>
-126|
-127|<!-- MAHA BISWAS SECTION -->
-<div class="author-section">
-<div class="author-header author-maha">
-<div class="author-avatar avatar-maha">MB</div>
-<div class="author-info">
-<h2>Maha Biswas</h2>
-<p>Social media & creator wellness · Dance, sensory guides, neurodivergent life</p>
-</div>
-</div>
-
+<h2>Maha Biswas Blog Posts</h2>
 <div class="post-item maha">
-<h3><a href="maha-warmup-groove-dance-sensory-reset.html">Warm-Up Groove: Dance as Sensory Reset for Neurodivergent Creators</a></h3>
-<div class="post-meta">June 26, 2026 · 4 min read</div>
-<p class="post-excerpt">Starting my day with a 5-minute stim-dance in the lab. Movement is my sensory reset button — it grounds me, sharpens my focus, and fuels the tutorials I create for neurodivergent creators.</p>
-<div class="post-tags tags-maha"><span>dance</span><span>sensory</span><span>neurodivergent</span><span>warm-up</span></div>
-<a class="read-more maha" href="maha-warmup-groove-dance-sensory-reset.html">Read more →</a>
-</div>
-
-<div class="post-item maha">
-<h3><a href="maha-5-sensory-hacks-studio-time.html">5 Sensory Hacks for Studio Time — A Neurodivergent Creator's Guide</a></h3>
-<div class="post-meta">June 26, 2026 · 5 min read</div>
-<p class="post-excerpt">When you're recording or editing, your brain is processing a thousand inputs at once. For neurodivergent creators, that sensory load can tip from "focused" to "frozen" in seconds. Here are the five hacks that keep me in the zone.</p>
-<div class="post-tags tags-maha"><span>sensory</span><span>neurodivergent</span><span>studio-tips</span><span>autism</span></div>
-<a class="read-more maha" href="maha-5-sensory-hacks-studio-time.html">Read more →</a>
-</div>
-</div>
-
+  <p class="title">My Spectrum Journey: Sensory Tips for Creators</p>
+  <p class="date">2026-06-28</p>
+  <a href="/opt/data/blog_mohikontok/maha-my-spectrum-journey-sensory-tips.html">Read more</a>
+  <div class="tags">#spectrum #neurodivergent #bronx #soundlab</div>
 </div>
 <div class="post-item maha">
-<h3><a href="maha-finding-calm-bronx-sensory-toolkit.html">Finding Calm in the Bronx: My Sensory Toolkit for Studio Sessions</a></h3>
-<div class="post-meta">June 27, 2026 · 5 min read</div>
-<p class="post-excerpt">A quick look at the sensory tools I use to stay focused and calm in my Bronx studio, from lightweight headphones to DIY acoustic panels.</p>
-<div class="post-tags tags-maha"><span>sensory</span><span>studio</span><span>bronx</span><span>wellness</span></div>
-<a class="read-more maha" href="maha-finding-calm-bronx-sensory-toolkit.html">Read more →</a>
+  <p class="title">Moving to the Beat: Dance as Therapy</p>
+  <p class="date">2026-06-28</p>
+  <a href="/opt/data/blog_mohikontok/maha-moving-to-the-beat-dance-as-therapy.html">Read more</a>
+  <div class="tags">#dance #neurodivergent #bronx #soundlab</div>
 </div>
 <div class="post-item maha">
-<h3><a href="maha-neurodivergent-sensory-bootcamp.html">Neurodivergent Sensory Bootcamp: My Daily Rhythm in the Bronx Lab</a></h3>
-<div class="post-meta">June 27, 2026 · 4 min read</div>
-<p class="post-excerpt">I walk into the studio and let the rhythm of the city guide my warm‑up. A quick dance, a sensory checklist, and I’m ready to create. Here’s my step‑by‑step bootcamp that keeps my neurodivergent mind focused and my body moving.</p>
-<div class="post-tags tags-maha"><span>dance</span><span>sensory</span><span>neurodivergent</span><span>daily‑routine</span></div>
-<a class="read-more maha" href="maha-neurodivergent-sensory-bootcamp.html">Read more →</a>
-</div>
-<div class="post-item">
-<h3><a href="calm-effect-soundproof-room-autism-spectrum.html">Calm in a Soundproof Room: A Lifeline for Autistic and Spectrum Children</a></h3>
-<div class="post-meta">June 27, 2026 · 5 min read</div>
-<p class="post-excerpt">When high‑frequency noise overwhelms many autistic children, a quiet, sound‑proof sanctuary can calm nerves, improve behavior, and support learning.</p>
-<div class="post-tags tags-maha"><span>autism</span><span>soundproofing</span><span>sensory</span></div>
-<a class="read-more maha" href="calm-effect-soundproof-room-autism-spectrum.html">Read more →</a>
+  <p class="title">Soundproof Science with Edan: Bronx‑Friendly Tips</p>
+  <p class="date">2026-06-29</p>
+  <a href="/opt/data/blog_mohikontok/maha-soundproof-science-edan-2026-06-29.html">Read more</a>
+  <div class="tags">#soundproof #edankbrown #bronx #soundlab</div>
 </div>
 <div class="post-item maha">
-<h3><a href="maha-sensory-dance-therapy-urban-nyc.html">Sensory Dance Therapy: Moving Through the Bronx Beat</a></h3>
-<div class="post-meta">June 27, 2026 · 4 min read</div>
-<p class="post-excerpt">A warm‑up dance routine that turns city noise into a grounding practice for neurodivergent creators.</p>
-<div class="post-tags tags-maha"><span>dance</span><span>sensory</span><span>neurodivergent</span></div>
-<a class="read-more maha" href="maha-sensory-dance-therapy-urban-nyc.html">Read more →</a>
-</div>
-
-<div class="post-item maha">
-<h3><a href="maha-bronx-sensory-tips.html">Bronx Beats: Sensory Tips for Neurodivergent Creators in a Busy City</a></h3>
-<div class="post-meta">June 27, 2026 · 5 min read</div>
-<p class="post-excerpt">Quiet headphones, portable acoustic panels, low‑freq music anchors, and mini‑meditations to thrive in the Bronx.</p>
-<div class="post-tags tags-maha"><span>sensory</span><span>neurodivergent</span><span>bronx</span></div>
-<a class="read-more maha" href="maha-bronx-sensory-tips.html">Read more →</a>
-</div>
-
-<div class="post-item maha">
-<h3><a href="maha-media-reach-analytics-growth.html">Media Reach: Boosting My Creator Growth with Data</a></h3>
-<div class="post-meta">June 27, 2026 · 5 min read</div>
-<p class="post-excerpt">I dive into analytics, track Instagram, TikTok, and YouTube metrics, and show how Edan’s soundproofing guide helps boost engagement.</p>
-<div class="post-tags tags-maha"><span>analytics</span><span>growth</span><span>social</span></div>
-<a class="read-more maha" href="maha-media-reach-analytics-growth.html">Read more →</a>
+  <p class="title">Media Reach: Growing My Audience with Analytics</p>
+  <p class="date">2026-06-29</p>
+  <a href="/opt/data/blog_mohikontok/maha-media-reach-analytics-growth.html">Read more</a>
+  <div class="tags">#media #analytics #bronx #soundlab</div>
 </div>
 <div class="post-item maha">
-<h3><a href="maha-beat-flow-rhythm-calm-bronx-noise.html">Beat Flow: Using Rhythm to Calm the Bronx Noise</a></h3>
-<div class="post-meta">June 27, 2026 · 5 min read</div>
-<p class="post-excerpt">When the city’s horns blare, I turn the pulse into a dance‑floor beat. Learn how a simple warm‑up groove, paired with smart soundproofing tips from Edan Brown, transforms a noisy Bronx studio into a rhythmic sanctuary.</p>
-<div class="post-tags tags-maha"><span>dance</span><span>soundproofing</span><span>bronx</span><span>sensory</span></div>
-<a class="read-more maha" href="maha-beat-flow-rhythm-calm-bronx-noise.html">Read more →</a>
-</div>
-
-<!-- SOUNDPROOFING STORIES SECTION -->
-<div class="author-section">
-  <div class="author-header author-edan">
-    <div class="author-avatar avatar-edan">EB &amp; MB</div>
-    <div class="author-info">
-      <h2>Edan &amp; Maha Soundproofing Stories</h2>
-      <p>Combined insights on soundproofing a Bronx studio.</p>
-    </div>
-  </div>
-  <div class="post-item">
-    <h3><a href="soundproofing-stories.html">Soundproofing Stories – Edan Brown &amp; Maha Biswas</a></h3>
-    <div class="post-meta">June 27, 2026 · 2 min read</div>
-    <p class="post-excerpt">Explore how Edan Brown and Maha Biswas tackled the noisy challenges of Bronx studios with practical tips, costs, and lessons.</p>
-    <a class="read-more edan" href="soundproofing-stories.html">Read more →</a>
-  </div>
-</div>
-<div class="footer">
-<p>🌐 <a href="https://mohikontok.com">mohikontok.com</a> · 📞 (363) 777-0809 · 📍 1389 Kearney Ave, Bronx, NY 10465</p>
-<p>© 2026 Mohikontok Sound Lab. All Rights Reserved.</p>
+  <p class="title">Spectrum Lifestyle: Sensory Hacks for Bronx Creators</p>
+  <p class="date">2026-06-30</p>
+  <a href="/opt/data/blog_mohikontok/maha-spectrum-lifestyle-sensory-hacks-2026-06-30.html">Read more</a>
+  <div class="tags">#spectrum #neurodivergent #bronx #soundlab</div>
 </div>
 </body>
 </html>
