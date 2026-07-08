@@ -122,7 +122,7 @@ const Contact: React.FC = () => {
             © {new Date().getFullYear()} Mohikontok. All Rights Reserved.
           </p>
           <div className="footer-legal">
-            <a href="#">Privacy Policy</a>
+            <a href="https://docs.google.com/document/d/1N58TdwMr9J0yxSOfkdQBDKSD29mxdZWJEiXZ8RDtOYM/edit?usp=sharing" target="_blank" aria-label="Privacy policy (readable and audible)">Privacy Policy</a>
             <a href="#">Terms of Service</a>
           </div>
         </div>

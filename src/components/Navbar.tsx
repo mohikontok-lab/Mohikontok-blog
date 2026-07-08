@@ -2,6 +2,10 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Radio } from 'lucide-react';
+
+import Announcements from './Announcements';
+import AudioPlayer from './AudioPlayer';
+
 import { useSession, signIn, signOut } from 'next-auth/react';
 
 interface NavbarProps {
@@ -38,10 +42,14 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
-        <a href="#" className="nav-logo">
-          <Radio size={22} className="pulse-glow" style={{ color: 'var(--color-orange)' }} />
-          <span>Mohikontok</span>
-        </a>
+        <div className="nav-left-group" style={{display: 'flex', alignItems: 'center', gap: '12px'}}>
+          <a href="#" className="nav-logo">
+            <Radio size={22} className="pulse-glow" style={{ color: 'var(--color-orange)' }} />
+            <span>Mohikontok</span>
+          </a>
+          {/* Announcements */}
+          <Announcements />
+        </div>
 
         {/* Desktop Links */}
         <ul className="nav-links desktop-menu">
